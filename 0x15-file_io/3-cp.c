@@ -33,7 +33,7 @@ char *create_buffer(char *file)
  */
 void close_file(int fo)
 {
-	int c;
+	int cl;
 
 	cl = close(fo);
 
