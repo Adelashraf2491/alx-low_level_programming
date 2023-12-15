@@ -16,5 +16,5 @@ int get_bit(unsigned long int n, unsigned int index)
 
 	val_bit = (n >> index) & 1;
 
-	return (val_bat);
+	return (val_bit);
 }
